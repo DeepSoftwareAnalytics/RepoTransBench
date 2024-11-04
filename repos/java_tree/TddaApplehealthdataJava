@@ -1,0 +1,8 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── AppleHealthDataExtractor.java
+    └── test
+        └── java
+            └── AppleHealthDataExtractorTest.java

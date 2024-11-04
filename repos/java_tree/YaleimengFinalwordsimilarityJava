@@ -1,0 +1,27 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Hybrid_Sim
+    │       │   └── HybridSim.java
+    │       ├── Pearson
+    │       │   └── Pearson.java
+    │       ├── cilin
+    │       │   └── V3
+    │       │       └── ciLin
+    │       │           └── CilinSimilarity.java
+    │       ├── fanyi
+    │       │   └── anto_Judger
+    │       │       └── AntonymJudger.java
+    │       └── hownet
+    │           └── howNet
+    │               ├── GlossaryElement.java
+    │               ├── How_Similarity.java
+    │               └── SememeElement.java
+    └── test
+        └── java
+            ├── TestAntonymJudger.java
+            ├── TestCilinSimilarity.java
+            ├── TestHowSimilarity.java
+            ├── TestHybridSim.java
+            └── TestPearson.java

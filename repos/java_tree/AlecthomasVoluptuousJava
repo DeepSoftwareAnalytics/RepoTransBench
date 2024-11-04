@@ -1,0 +1,15 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Error.java
+    │       ├── Invalid.java
+    │       ├── MultipleInvalid.java
+    │       ├── Schema.java
+    │       ├── SchemaError.java
+    │       └── Validators.java
+    └── test
+        └── java
+            ├── TestError.java
+            ├── TestSchema.java
+            └── TestValidators.java

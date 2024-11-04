@@ -1,0 +1,8 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── CoverageBadgeMain.java
+    └── test
+        └── java
+            └── TestCoverageBadge.java

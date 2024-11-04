@@ -1,0 +1,13 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── GameItems.java
+    │       ├── SteamAPI.java
+    │       ├── SteamGames.java
+    │       └── SteamUser.java
+    └── test
+        └── java
+            ├── GameItemsTest.java
+            ├── SteamBaseTest.java
+            └── SteamUserTest.java

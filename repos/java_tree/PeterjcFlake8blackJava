@@ -1,0 +1,12 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── BlackConfigLoader.java
+    │       ├── BlackStyleChecker.java
+    │       └── FindDiff.java
+    └── test
+        └── java
+            ├── BlackConfigLoaderTest.java
+            ├── BlackStyleCheckerTest.java
+            └── FindDiffTest.java

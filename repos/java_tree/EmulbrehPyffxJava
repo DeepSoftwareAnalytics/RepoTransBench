@@ -1,0 +1,10 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Codec.java
+    │       └── FFX.java
+    └── test
+        └── java
+            ├── IntegerCodecTest.java
+            └── StringCodecTest.java

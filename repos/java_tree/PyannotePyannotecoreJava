@@ -1,0 +1,19 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Annotation.java
+    │       ├── ChartEntry.java
+    │       ├── LabelDuration.java
+    │       ├── Segment.java
+    │       ├── SlidingWindow.java
+    │       ├── SlidingWindowFeature.java
+    │       ├── Timeline.java
+    │       ├── Track.java
+    │       └── TrackWithLabel.java
+    └── test
+        └── java
+            ├── TestAnnotation.java
+            ├── TestSegment.java
+            ├── TestSlidingWindowFeature.java
+            └── TestTimeline.java

@@ -1,0 +1,17 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Cube.java
+    │       ├── Matrix.java
+    │       ├── Optimize.java
+    │       ├── Piece.java
+    │       ├── Point.java
+    │       └── Solver.java
+    └── test
+        └── java
+            ├── TestCube.java
+            ├── TestMatrix.java
+            ├── TestOptimize.java
+            ├── TestPoint.java
+            └── TestSolver.java
