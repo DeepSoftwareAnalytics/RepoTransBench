@@ -1,0 +1,10 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Item.java
+    │       ├── Microdata.java
+    │       └── URI.java
+    └── test
+        └── java
+            └── MicrodataParserTest.java

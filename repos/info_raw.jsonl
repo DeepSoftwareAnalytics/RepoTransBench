@@ -1,0 +1,100 @@
+{"repo_id": 1, "repo_path": "zachwill/moment", "tests_path": ["tests.py"], "java_test_paths": ["AdvancedDateParsingTest.java", "ReplacementTest.java", "SimpleAPITest.java", "WeekdaysTest.java"]}
+{"repo_id": 2, "repo_path": "zestyping/q", "tests_path": ["tests.py"], "java_test_paths": ["TestQBasic.java"]}
+{"repo_id": 3, "repo_path": "sublee/glicko2", "tests_path": ["tests.py"], "java_test_paths": ["Glicko2Test.java"]}
+{"repo_id": 4, "repo_path": "gnebehay/parser", "tests_path": ["tests.py"], "java_test_paths": ["ComputeTest.java", "ParserTest.java"]}
+{"repo_id": 5, "repo_path": "liamja/Prebake", "tests_path": ["tests.py"], "java_test_paths": ["TestAddChecksum.java", "TestValidateChecksum.java"]}
+{"repo_id": 6, "repo_path": "ActiveState/appdirs", "tests_path": ["tests.py"], "java_test_paths": ["TestAppDir.java"]}
+{"repo_id": 7, "repo_path": "yaleimeng/Final_word_Similarity", "tests_path": ["tests.py"], "java_test_paths": ["TestAntonymJudger.java", "TestCilinSimilarity.java", "TestHowSimilarity.java", "TestHybridSim.java", "TestPearson.java"]}
+{"repo_id": 8, "repo_path": "Alir3z4/python-short_url", "tests_path": ["tests.py"], "java_test_paths": ["TestShortUrl.java"]}
+{"repo_id": 9, "repo_path": "pyannote/pyannote-core", "tests_path": ["tests/utils.py", "tests/test_annotations.py", "tests/test_features.py", "tests/test_segment.py", "tests/test_timeline.py"], "java_test_paths": ["TestAnnotation.java", "TestSegment.java", "TestSlidingWindowFeature.java", "TestTimeline.java"]}
+{"repo_id": 10, "repo_path": "suminb/base62", "tests_path": ["tests.py"], "java_test_paths": ["TestBase62.java"]}
+{"repo_id": 11, "repo_path": "hmleal/py-clui", "tests_path": ["tests/test_colorize.py", "tests/test_gauge.py", "tests/test_progress.py"], "java_test_paths": ["TestColorize.java", "TestGauge.java", "TestProgress.java"]}
+{"repo_id": 12, "repo_path": "ArturSpirin/pyPS4Controller", "tests_path": ["tests.py"], "java_test_paths": ["TestDefaultMapping.java", "TestMapping3Bh2b.java"]}
+{"repo_id": 13, "repo_path": "alanhamlett/readtime", "tests_path": ["tests.py"], "java_test_paths": ["BaseTestCase.java"]}
+{"repo_id": 14, "repo_path": "skorokithakis/shortuuid", "tests_path": ["tests.py"], "java_test_paths": ["ClassShortUUIDTest.java", "CliTest.java", "DecodingEdgeCasesTest.java", "EncodingEdgeCasesTest.java", "LegacyShortUUIDTest.java", "ShortUUIDPaddingTest.java"]}
+{"repo_id": 15, "repo_path": "bsolomon1124/demoji", "tests_path": ["tests.py"], "java_test_paths": ["TestDemoji.java"]}
+{"repo_id": 16, "repo_path": "dbrgn/coverage-badge", "tests_path": ["tests.py"], "java_test_paths": ["TestCoverageBadge.java"]}
+{"repo_id": 17, "repo_path": "dirn/When.py", "tests_path": ["tests.py"], "java_test_paths": ["WhenEasterEggTest.java", "WhenTest.java"]}
+{"repo_id": 18, "repo_path": "dwyl/english-words", "tests_path": ["tests.py"], "java_test_paths": ["TestReadEnglishDictionary.java"]}
+{"repo_id": 19, "repo_path": "fastly/Avalanche", "tests_path": ["tests.py"], "java_test_paths": ["LatencyTest.java", "PacketLossTest.java", "PartitionTest.java", "ReorderTest.java", "SettingsTest.java"]}
+{"repo_id": 20, "repo_path": "Hyun-je/pyrplidar", "tests_path": ["tests.py"], "java_test_paths": ["PyRPlidarProtocolTest.java"]}
+{"repo_id": 21, "repo_path": "nathanlct/reeds-shepp-curves", "tests_path": ["tests.py"], "java_test_paths": ["TestDraw.java", "TestReedsShepp.java", "TestUtils.java"]}
+{"repo_id": 22, "repo_path": "necaris/cuid.py", "tests_path": ["tests.py"], "java_test_paths": ["TestCuid.java", "TestHelpers.java"]}
+{"repo_id": 23, "repo_path": "neural-dialogue-metrics/Distinct-N", "tests_path": ["tests.py"], "java_test_paths": ["TestDistinctN.java"]}
+{"repo_id": 24, "repo_path": "olle/lz77-kit", "tests_path": ["tests.py"], "java_test_paths": ["LZ77Test.java"]}
+{"repo_id": 25, "repo_path": "pyhackertarget/hackertarget", "tests_path": ["tests.py"], "java_test_paths": ["HackerTargetApiTest.java"]}
+{"repo_id": 26, "repo_path": "ramazanpolat/prodict", "tests_path": ["tests.py"], "java_test_paths": ["ProdictTest.java"]}
+{"repo_id": 27, "repo_path": "rdegges/brute", "tests_path": ["tests.py"], "java_test_paths": ["TestBrute.java"]}
+{"repo_id": 28, "repo_path": "ross/requests-futures", "tests_path": ["tests.py"], "java_test_paths": ["RequestsProcessPoolTestCase.java", "RequestsTestCase.java"]}
+{"repo_id": 29, "repo_path": "serge-sans-paille/gast", "tests_path": ["tests/test_api.py", "tests/test_compat.py", "tests/test_py3_12.py", "tests/test_self.py", "tests/test_unparser.py", "tests/__init__.py"], "java_test_paths": ["APITestCase.java", "CompatTestCase.java", "SelfTestCase.java", "UnparserTestCase.java"]}
+{"repo_id": 30, "repo_path": "simon-weber/gpsoauth", "tests_path": ["tests.py"], "java_test_paths": ["TestGpsoauth.java"]}
+{"repo_id": 31, "repo_path": "SirAnthony/slpp", "tests_path": ["tests.py"], "java_test_paths": ["TestSLPP.java", "TestUtilityFunctions.java"]}
+{"repo_id": 32, "repo_path": "stephenbradshaw/hlextend", "tests_path": ["tests.py"], "java_test_paths": ["TestHLExtend.java"]}
+{"repo_id": 33, "repo_path": "dorkitude/dstruct", "tests_path": ["tests.py"], "java_test_paths": ["BaseTestCase.java", "DStructTestCase.java"]}
+{"repo_id": 34, "repo_path": "IlyaKrotov/BitMEX-simple-trading-robot", "tests_path": ["tests.py"], "java_test_paths": ["TestConfiguration.java", "TestTrader.java"]}
+{"repo_id": 35, "repo_path": "kevinwuhoo/randomcolor-py", "tests_path": ["tests.py"], "java_test_paths": ["TestRandomColor.java"]}
+{"repo_id": 36, "repo_path": "nytimes/rd-blender-docker", "tests_path": ["tests.py"], "java_test_paths": ["GenerateTestCase.java"]}
+{"repo_id": 37, "repo_path": "sha256/python-var-dump", "tests_path": ["tests/var_dump_test.py", "tests/var_export_test.py"], "java_test_paths": ["VarDumpTests.java", "VarExportTests.java"]}
+{"repo_id": 38, "repo_path": "Yelp/ephemeral-port-reserve", "tests_path": ["tests.py"], "java_test_paths": ["TestPortBinding.java"]}
+{"repo_id": 39, "repo_path": "SteinRobert/python-restcountries", "tests_path": ["tests/conftest.py", "tests/countries_data.py", "tests/test_base.py"], "java_test_paths": ["RestCountryApiV2Test.java"]}
+{"repo_id": 40, "repo_path": "sbyrnes321/numericalunits", "tests_path": ["tests.py"], "java_test_paths": ["NumericalUnitsTest.java"]}
+{"repo_id": 41, "repo_path": "saresend/KSUID", "tests_path": ["tests/ksuid_test.py", "tests/test_ksuid_serialization_support.py"], "java_test_paths": ["KsuidTest.java", "TestKsuidSerializationSupport.java"]}
+{"repo_id": 42, "repo_path": "AWegnerGitHub/stackapi", "tests_path": ["tests.py"], "java_test_paths": ["StackAPITest.java"]}
+{"repo_id": 43, "repo_path": "jtauber/blockchain", "tests_path": ["tests.py"], "java_test_paths": ["BlockChainTest.java"]}
+{"repo_id": 44, "repo_path": "r-kan/semile", "tests_path": ["tests.py"], "java_test_paths": ["ProfViewTest.java"]}
+{"repo_id": 45, "repo_path": "DigitaleGesellschaft/Anonip", "tests_path": ["tests.py"], "java_test_paths": ["TestAnonip.java"]}
+{"repo_id": 46, "repo_path": "emulbreh/pyffx", "tests_path": ["tests.py"], "java_test_paths": ["IntegerCodecTest.java", "StringCodecTest.java"]}
+{"repo_id": 47, "repo_path": "pe-st/garmin-connect-export", "tests_path": ["tests.py"], "java_test_paths": ["FilteringTest.java", "GarminConnectExporterTest.java"]}
+{"repo_id": 48, "repo_path": "lionheart/pinboard.py", "tests_path": ["tests.py"], "java_test_paths": ["PinboardTest.java"]}
+{"repo_id": 49, "repo_path": "tdda/applehealthdata", "tests_path": ["tests.py"], "java_test_paths": ["AppleHealthDataExtractorTest.java"]}
+{"repo_id": 50, "repo_path": "alecthomas/voluptuous", "tests_path": ["tests.py"], "java_test_paths": ["TestError.java", "TestSchema.java", "TestValidators.java"]}
+{"repo_id": 51, "repo_path": "comadan/FM_FTRL", "tests_path": ["tests.py"], "java_test_paths": ["DataGeneratorTest.java", "FM_FTRL_machineTest.java", "LogLossTest.java"]}
+{"repo_id": 52, "repo_path": "drewkerrigan/nagios-http-json", "tests_path": ["tests/test_args.py", "tests/test_check_http_json.py", "tests/test_cli.py", "tests/test_main.py", "tests/test_nagioshelper.py", "tests/__init__.py"], "java_test_paths": ["ArgsTest.java", "CheckHttpJsonTest.java", "CLITest.java", "MainTest.java", "NagiosHelperTest.java"]}
+{"repo_id": 53, "repo_path": "dogsheep/swarm-to-sqlite", "tests_path": ["tests.py"], "java_test_paths": ["TestSaveCheckin.java"]}
+{"repo_id": 54, "repo_path": "lukaskubis/darkskylib", "tests_path": ["tests.py"], "java_test_paths": ["TestPickle.java"]}
+{"repo_id": 55, "repo_path": "jantrienes/nereval", "tests_path": ["tests.py"], "java_test_paths": ["NerevalTest.java"]}
+{"repo_id": 56, "repo_path": "jeffbuttars/cowpy", "tests_path": ["tests.py"], "java_test_paths": ["TestCowpy.java"]}
+{"repo_id": 57, "repo_path": "jundymek/free-proxy", "tests_path": ["tests.py"], "java_test_paths": ["TestProxy.java"]}
+{"repo_id": 58, "repo_path": "nlitsme/pyidbutil", "tests_path": ["tests.py"], "java_test_paths": ["IdbLibTest.java"]}
+{"repo_id": 59, "repo_path": "marteinn/The-Big-Username-Blocklist", "tests_path": ["tests.py"], "java_test_paths": ["GenerateTest.java"]}
+{"repo_id": 60, "repo_path": "shinux/PyTime", "tests_path": ["tests.py"], "java_test_paths": ["PytimeTest.java"]}
+{"repo_id": 61, "repo_path": "porimol/countryinfo", "tests_path": ["tests.py"], "java_test_paths": ["Tests.java"]}
+{"repo_id": 62, "repo_path": "patx/pickledb", "tests_path": ["tests.py"], "java_test_paths": ["TestPickleDB.java"]}
+{"repo_id": 63, "repo_path": "tikitu/jsmin", "tests_path": ["tests.py"], "java_test_paths": ["JsTests.java", "RegexTests.java"]}
+{"repo_id": 64, "repo_path": "tasdikrahman/vocabulary", "tests_path": ["tests.py"], "java_test_paths": ["VocabularyTest.java"]}
+{"repo_id": 65, "repo_path": "slomkowski/nginx-config-formatter", "tests_path": ["tests.py"], "java_test_paths": ["FormatterTest.java"]}
+{"repo_id": 66, "repo_path": "troublegum/micropyserver", "tests_path": ["tests.py"], "java_test_paths": ["UtilsTest.java"]}
+{"repo_id": 67, "repo_path": "edsu/microdata", "tests_path": ["tests.py"], "java_test_paths": ["MicrodataParserTest.java"]}
+{"repo_id": 68, "repo_path": "luno/luno-python", "tests_path": ["tests.py"], "java_test_paths": ["ClientTest.java"]}
+{"repo_id": 69, "repo_path": "mk-fg/pretty-yaml", "tests_path": ["tests/test_cli.py", "tests/test_dump.py"], "java_test_paths": ["CliToolTests.java", "DumpTests.java"]}
+{"repo_id": 70, "repo_path": "hegusung/AVSignSeek", "tests_path": ["tests.py"], "java_test_paths": ["avsignseek/AVSignSeekTest.java", "raw_analysis/RawAnalysisTest.java", "result/ResultTest.java", "utils/PairTest.java", "utils/UtilsTest.java"]}
+{"repo_id": 71, "repo_path": "italorossi/ishell", "tests_path": ["tests/test_py3.py", "tests/test_shell.py"], "java_test_paths": ["CommandTest.java", "ConsoleTest.java"]}
+{"repo_id": 72, "repo_path": "mike-grant/haaska", "tests_path": ["tests.py"], "java_test_paths": ["TestHaaska.java"]}
+{"repo_id": 73, "repo_path": "mozilla/unicode-slugify", "tests_path": ["tests.py"], "java_test_paths": ["UtilTest.java"]}
+{"repo_id": 74, "repo_path": "ryancox/motionless", "tests_path": ["tests.py"], "java_test_paths": ["TestMotionless.java"]}
+{"repo_id": 75, "repo_path": "jieter/python-lora", "tests_path": ["tests/import_fixtures.py", "tests/test_crypto.py", "tests/test_lorapayload.py"], "java_test_paths": ["ImportFixtures.java", "TestCrypto.java", "TestLoraPayload.java"]}
+{"repo_id": 76, "repo_path": "Bogdanp/cursive_re", "tests_path": ["tests.py"], "java_test_paths": ["RegexExprTest.java", "UrlPatternTest.java"]}
+{"repo_id": 77, "repo_path": "peterjc/flake8-black", "tests_path": ["tests.py"], "java_test_paths": ["BlackConfigLoaderTest.java", "BlackStyleCheckerTest.java", "FindDiffTest.java"]}
+{"repo_id": 78, "repo_path": "naiyt/steamapiwrapper", "tests_path": ["tests.py"], "java_test_paths": ["GameItemsTest.java", "SteamBaseTest.java", "SteamUserTest.java"]}
+{"repo_id": 79, "repo_path": "mpetazzoni/sseclient", "tests_path": ["tests.py"], "java_test_paths": ["SSEClientTest.java"]}
+{"repo_id": 80, "repo_path": "tenthirtyone/blocktools", "tests_path": ["tests.py"], "java_test_paths": ["BlockHeaderTest.java", "BlockTest.java", "BlockToolsTest.java", "TxInputTest.java", "TxOutputTest.java", "TxTest.java"]}
+{"repo_id": 81, "repo_path": "disqus/python-phabricator", "tests_path": ["tests.py"], "java_test_paths": ["PhabricatorTest.java"]}
+{"repo_id": 82, "repo_path": "barbosa/clorox", "tests_path": ["tests.py"], "java_test_paths": ["MatcherTestCase.java"]}
+{"repo_id": 83, "repo_path": "sighalt/logdecorator", "tests_path": ["tests.py"], "java_test_paths": ["TestDecorators.java"]}
+{"repo_id": 84, "repo_path": "mobify/iterstuff", "tests_path": ["tests.py"], "java_test_paths": ["LookaheadTest.java", "RecipeTests.java"]}
+{"repo_id": 85, "repo_path": "lzakharov/csv2md", "tests_path": ["tests.py"], "java_test_paths": ["TableTest.java", "UtilsTest.java"]}
+{"repo_id": 86, "repo_path": "imbal/safeyaml", "tests_path": ["tests.py"], "java_test_paths": ["TestSafeYAML.java"]}
+{"repo_id": 87, "repo_path": "100/Solid", "tests_path": ["tests.py"], "java_test_paths": ["Tests.java"]}
+{"repo_id": 88, "repo_path": "pwaller/pyprof2calltree", "tests_path": ["tests.py"], "java_test_paths": ["CalltreeConverterTest.java", "MockTimeProfile.java"]}
+{"repo_id": 89, "repo_path": "pglass/cube", "tests_path": ["tests.py"], "java_test_paths": ["TestCube.java", "TestMatrix.java", "TestOptimize.java", "TestPoint.java", "TestSolver.java"]}
+{"repo_id": 90, "repo_path": "exentriquesolutions/nip.io", "tests_path": ["tests.py"], "java_test_paths": ["DynamicBackendTest.java"]}
+{"repo_id": 91, "repo_path": "dashea/requests-file", "tests_path": ["tests.py"], "java_test_paths": ["FileRequestTestCase.java"]}
+{"repo_id": 92, "repo_path": "ppannuto/python-titlecase", "tests_path": ["tests.py"], "java_test_paths": ["TitleCaseTest.java"]}
+{"repo_id": 93, "repo_path": "pdftables/python-pdftables-api", "tests_path": ["tests.py"], "java_test_paths": ["ClientEnsureFormatTest.java", "ClientRequestsTest.java"]}
+{"repo_id": 94, "repo_path": "riga/pymitter", "tests_path": ["tests.py"], "java_test_paths": ["AsyncTestCase.java", "SyncTestCase.java"]}
+{"repo_id": 95, "repo_path": "qedus/sphere", "tests_path": ["tests/compare_implementations_test.py", "tests/covering_test.py", "tests/sphere_test.py"], "java_test_paths": ["CoveringTest.java", "LevelStats.java", "TestAngle.java", "TestCap.java", "TestCell.java", "TestCellId.java", "TestCellId2.java", "TestCellUnion.java", "TestCrossings.java", "TestLatLon.java", "TestLatLonRect.java", "TestLineInterval.java", "TestRegionCoverer.java", "TestSphereInterval.java", "TestUtils.java"]}
+{"repo_id": 96, "repo_path": "stepchowfun/theorem-prover", "tests_path": ["tests.py"], "java_test_paths": ["TestFunction.java", "TestNot.java", "TestPredicate.java", "TestUnificationTerm.java", "TestVariable.java"]}
+{"repo_id": 97, "repo_path": "kevink1103/pyprnt", "tests_path": ["tests.py"], "java_test_paths": ["TestBorderMethods.java", "TestPrintBasic.java", "TestPrintBoth.java", "TestPrintDepth.java", "TestPrintEnable.java", "TestPrintEnd.java", "TestPrintSep.java", "TestPrintTruncate.java", "TestPrintWidth.java", "TestTerminalMethods.java"]}
+{"repo_id": 98, "repo_path": "zach-taylor/splunk_handler", "tests_path": ["tests/test_splunk_handler.py"], "java_test_paths": ["SplunkHandlerTest.java"]}
+{"repo_id": 99, "repo_path": "susam/mintotp", "tests_path": ["tests.py"], "java_test_paths": ["MintOTPTest.java"]}
+{"repo_id": 100, "repo_path": "liviu-/ding", "tests_path": ["tests/test_arguments.py", "tests/test_functions.py", "tests/test_integration.py"], "java_test_paths": ["BeepTester.java", "DingArgsTest.java", "DingTest.java", "IntegrationTest.java"]}

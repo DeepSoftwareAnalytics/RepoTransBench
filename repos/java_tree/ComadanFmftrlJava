@@ -1,0 +1,14 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── DataGenerator.java
+    │       ├── FMFTRLMachine.java
+    │       ├── LogLoss.java
+    │       ├── RunModelDropoutExample.java
+    │       └── RunModelExample.java
+    └── test
+        └── java
+            ├── DataGeneratorTest.java
+            ├── FM_FTRL_machineTest.java
+            └── LogLossTest.java

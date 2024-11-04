@@ -1,0 +1,12 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Client.java
+    │       ├── Strategy.java
+    │       ├── TimeToWaitNewTrade.java
+    │       └── Trader.java
+    └── test
+        └── java
+            ├── TestConfiguration.java
+            └── TestTrader.java

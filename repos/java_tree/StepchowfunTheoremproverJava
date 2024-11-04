@@ -1,0 +1,16 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Function.java
+    │       ├── Not.java
+    │       ├── Predicate.java
+    │       ├── UnificationTerm.java
+    │       └── Variable.java
+    └── test
+        └── java
+            ├── TestFunction.java
+            ├── TestNot.java
+            ├── TestPredicate.java
+            ├── TestUnificationTerm.java
+            └── TestVariable.java

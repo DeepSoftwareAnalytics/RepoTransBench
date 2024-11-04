@@ -1,0 +1,8 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       └── TitleCase.java
+    └── test
+        └── java
+            └── TitleCaseTest.java
