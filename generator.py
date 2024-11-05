@@ -49,7 +49,7 @@ class Generator:
         
 
     def load_gpt(self):
-        # 加载api keys
+        # load api keys
         api_keys_path = 'api_keys.txt'
         with open(api_keys_path, encoding='utf-8') as f:
             api_key_list = f.readlines()

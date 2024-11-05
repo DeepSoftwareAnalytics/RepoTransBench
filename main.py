@@ -29,7 +29,7 @@ def run(args):
         generator.init_conversation(repo_info)
         # generator.init_conversation()
 
-        java_repo_name = ''.join([item.replace('-', '').replace('_', '').replace('.', '').capitalize() for item in repo_info['repo_path'].split('/')]) + 'Java'  # java项目名称
+        java_repo_name = ''.join([item.replace('-', '').replace('_', '').replace('.', '').capitalize() for item in repo_info['repo_path'].split('/')]) + 'Java'  # java repo name
         logger.info(java_repo_name)
 
         if args.enable_translate and not args.enable_history:
