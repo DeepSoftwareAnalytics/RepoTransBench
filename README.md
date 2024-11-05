@@ -16,7 +16,7 @@
 ### Translation Level
 
 <!-- ![Translation Level](asset/TranslationLevel.png) -->
-<img src="asset/TranslationLevel.png" width="600" />
+<img src="asset/TranslationLevel.png" width="900" />
 
 
 ### Translation Performance
@@ -38,7 +38,7 @@
 ### Debugging Performance
 
 <!-- ![Debug Results](asset/DebugResults.png) -->
-<img src="asset/DebugResults.png" width="600" />
+<img src="asset/DebugResults.png" width="900" />
 
 ---
 
