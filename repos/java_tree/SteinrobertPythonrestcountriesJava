@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       ├── Country.java
-    │       └── RestCountryApiV2.java
-    └── test
-        └── java
-            └── RestCountryApiV2Test.java

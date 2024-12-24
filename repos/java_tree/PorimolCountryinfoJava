@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── CountryInfo.java
-    └── test
-        └── java
-            └── Tests.java

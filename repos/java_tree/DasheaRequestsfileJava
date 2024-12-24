@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── FileAdapter.java
-    └── test
-        └── java
-            └── FileRequestTestCase.java

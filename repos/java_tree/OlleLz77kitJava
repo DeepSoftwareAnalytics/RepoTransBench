@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Compressor.java
-    └── test
-        └── java
-            └── LZ77Test.java

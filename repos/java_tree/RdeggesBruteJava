@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Brute.java
-    └── test
-        └── java
-            └── TestBrute.java

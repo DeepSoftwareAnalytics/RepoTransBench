@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── IdbLib.java
-    └── test
-        └── java
-            └── IdbLibTest.java

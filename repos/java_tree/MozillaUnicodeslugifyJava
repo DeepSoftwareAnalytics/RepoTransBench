@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Util.java
-    └── test
-        └── java
-            └── UtilTest.java

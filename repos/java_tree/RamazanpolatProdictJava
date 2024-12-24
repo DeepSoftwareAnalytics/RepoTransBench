@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Prodict.java
-    └── test
-        └── java
-            └── ProdictTest.java

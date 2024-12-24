@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       ├── Event.java
-    │       └── SSEClient.java
-    └── test
-        └── java
-            └── SSEClientTest.java

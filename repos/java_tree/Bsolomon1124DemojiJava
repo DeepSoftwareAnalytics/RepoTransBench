@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Demoji.java
-    └── test
-        └── java
-            └── TestDemoji.java

@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       ├── CreateJson.java
-    │       └── ReadEnglishDictionary.java
-    └── test
-        └── java
-            └── TestReadEnglishDictionary.java

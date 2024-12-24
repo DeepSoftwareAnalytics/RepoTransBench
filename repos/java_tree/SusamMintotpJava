@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── MintOTP.java
-    └── test
-        └── java
-            └── MintOTPTest.java

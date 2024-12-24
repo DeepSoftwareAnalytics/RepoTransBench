@@ -1,8 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── Base62.java
-    └── test
-        └── java
-            └── TestBase62.java

@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── JavascriptMinify.java
-    └── test
-        └── java
-            ├── JsTests.java
-            └── RegexTests.java

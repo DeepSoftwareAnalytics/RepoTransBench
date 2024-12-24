@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── DStruct.java
-    └── test
-        └── java
-            ├── BaseTestCase.java
-            └── DStructTestCase.java

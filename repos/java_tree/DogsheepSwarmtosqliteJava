@@ -1,9 +1,0 @@
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       ├── Cli.java
-    │       └── Utils.java
-    └── test
-        └── java
-            └── TestSaveCheckin.java
