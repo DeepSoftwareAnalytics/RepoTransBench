@@ -1,0 +1,10 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Glicko2.java
+    │       ├── Rating.java
+    │       └── Result.java
+    └── test
+        └── java
+            └── Glicko2Test.java

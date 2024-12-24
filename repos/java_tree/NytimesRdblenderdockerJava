@@ -1,0 +1,10 @@
+├── pom.xml
+└── src
+    ├── main
+    │   └── java
+    │       ├── Build.java
+    │       ├── Generate.java
+    │       └── Pair.java
+    └── test
+        └── java
+            └── GenerateTestCase.java
