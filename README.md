@@ -80,3 +80,19 @@ python main.py \
     --enable_debug \
     --debug_mode 'filter' \
 ```
+
+
+---
+
+### Citation
+
+If you find this benchmark or dataset helpful, please cite us:
+
+```bibtex
+@article{wang2024repotransbench,
+  title={RepoTransBench: A Real-World Benchmark for Repository-Level Code Translation},
+  author={Wang, Yanli and Wang, Yanlin and Wang, Suiquan and Guo, Daya and Chen, Jiachi and Grundy, John and Liu, Xilin and Ma, Yuchi and Mao, Mingzhi and Zhang, Hongyu and others},
+  journal={arXiv preprint arXiv:2412.17744},
+  year={2024}
+}
+```
