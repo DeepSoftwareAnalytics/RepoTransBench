@@ -61,7 +61,7 @@ python main.py \
     --enable_translate \
     --model_name 'GPT-4o' \
     --enable_debug \
-    --debug_mode 'filter' \
+    --debug_mode 'filter'
 ```
 
 ```bash
@@ -78,7 +78,7 @@ python main.py \
     --enable_history '' \ 
     --history_time '' \  # History time of translation results
     --enable_debug \
-    --debug_mode 'filter' \
+    --debug_mode 'filter'
 ```
 
 
