@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+  multilang-dev:
+    build: .
+    container_name: multilang-development
+    # user: "${USER_ID:-1000}:${GROUP_ID:-1000}"  # 注释掉这行
+    volumes:
+      - .:/workspace
+      - pip-cache:/root/.cache/pip
+      - npm-cache:/root/.npm
+      - cargo-cache:/root/.cargo/registry
+      - go-cache:/go/pkg/mod
+    environment:
+      - TERM=xterm-256color
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+      - "8080:8080"
+      - "5000:5000"
+      - "8090:8090"
+volumes:
+  pip-cache:
+  npm-cache:
+  cargo-cache:
+  go-cache:

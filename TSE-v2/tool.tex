@@ -1,0 +1,84 @@
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{multirow}
+\usepackage{booktabs} % For formal tables
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+% \captionsetup{justification=centering}
+
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{stfloats}
+\usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{color, colortbl}
+\usepackage{balance} % to balance the bibliography
+\usepackage{lscape}
+\usepackage{xspace}
+\usepackage{framed}
+\usepackage{syntax}
+\usepackage{parcolumns}
+\usepackage{pifont}
+\usepackage{soul}
+\usepackage[tikz]{bclogo}
+\usepackage{enumitem}
+\usepackage{soul}
+\usepackage{makecell}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{ulem}
+% \usepackage{arydshln}
+% \usepackage[table]{xcolor} % 导入 xcolor 宏包以支持颜色
+% \usepackage{makecell}
+\usepackage{cite}
+
+
+\newcommand{\figmargin}{\vspace{-15pt}}
+\newcommand{\tabmargin}{\vspace{-10pt}}
+\newcommand{\secmargin}{\vspace{-2pt}}
+
+\newcommand{\boxmargin}{1mm}
+\newtcolorbox{myboxc}{
+    colback=gray!15!white,
+    % colframe=black, enhanced,
+    arc = 0pt, outer arc = 0pt,
+    boxsep=0pt, left = 3pt, right = 0pt, top = 0pt, bottom = 0pt, 
+    leftrule=3pt, bottomrule=0pt,toprule=0pt, rightrule=0pt,
+    left = \boxmargin, right = \boxmargin, top = \boxmargin, bottom = \boxmargin
+}
+
+\newcommand{\myauthornote}[3]{}
+% \newcommand{\myauthornote}[3]{{\color{#2} {\sc #1}: #3}}
+\newcommand\hy[1]{\myauthornote{HY}{red}{#1}}
+\newcommand\yanli[1]{\myauthornote{Yanli}{blue}{#1}}
+\newcommand\yl[1]{\myauthornote{YL}{cyan}{#1}}
+\newcommand\JG[1]{\myauthornote{JG}{brown}{#1}}
+
+% \setlength{\parindent}{0pt} % 取消缩进
+% \renewcommand{\paragraph}[1]{\vspace{1ex}\noindent\textbf{#1}\quad}
+% \renewcommand{\subparagraph}[1]{\vspace{1ex}\noindent\textit{#1}\quad}
+
+
+
+% \newcommand{\toolname}[0]{}
+\newcommand{\toolname}{RepoTransBench\xspace}
+
+
+\newcommand{\openai}{\scalerel*{\includegraphics{resources/openai.png}}{\textrm{C}}\xspace}
+\newcommand{\google}{\scalerel*{\includegraphics{resources/google.png}}{\textrm{C}}\xspace}
+\newcommand{\meta}{\scalebox{0.7}{\scalerel*{\includegraphics{resources/meta.png}}{\textrm{C}}}\xspace}
+\newcommand{\anthropic}{\scalebox{1}{\scalerel*{\includegraphics{resources/anthropic.png}}{\textrm{C}}}\xspace}
+% \newcommand{\deepseeklogo}{\scalebox{0.7}{\scalerel*{\includegraphics{resources/deepseek.png}}{\textrm{C}}}\xspace}
+\newcommand{\deepseeklogo}{\resizebox{0.5cm}{!}{\includegraphics{resources/deepseek.png}}\xspace}
+
+\newcommand{\mistrallogo}{\scalebox{1}{\scalerel*{\includegraphics{resources/mistral.png}}{\textrm{C}}}\xspace}
+\newcommand{\microsoft}{\scalebox{1}{\scalerel*{\includegraphics{resources/microsoft.png}}{\textrm{C}}}\xspace}
+
