@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     vim \
+    tree \
     build-essential \
     software-properties-common \
     apt-transport-https \
