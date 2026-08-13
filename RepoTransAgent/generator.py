@@ -32,9 +32,19 @@ class Generator:
         self.init_conversation()
 
     def load_config(self):
-        with open(f'RepoTransAgent/{self.config_file}', encoding='utf-8') as f:
-            api_keys = f.readlines()
-        api_keys = [line.split()[1].strip() for line in api_keys]
+        # Keys may come from the environment (REPOTRANSBENCH_API_KEY, comma-separated
+        # for rotation) or, as before, from API_KEY.txt.
+        env_keys = os.environ.get('REPOTRANSBENCH_API_KEY', '')
+        if env_keys:
+            api_keys = [k.strip() for k in env_keys.split(',') if k.strip()]
+        else:
+            with open(f'RepoTransAgent/{self.config_file}', encoding='utf-8') as f:
+                api_keys = [line.split()[1].strip() for line in f if len(line.split()) > 1]
+        if not api_keys:
+            raise RuntimeError(
+                f'No API key found. Set REPOTRANSBENCH_API_KEY, or add lines of the form '
+                f'"<name> <key>" to RepoTransAgent/{self.config_file}.'
+            )
         self.api_keys = cycle(api_keys)
 
         self.api_key = next(self.api_keys)
@@ -50,6 +60,9 @@ class Generator:
         # self.base_url = 'https://api.agicto.cn'
         # self.base_url = 'https://www.chataiapi.com'
         # self.base_url = 'https://claude.aisonnet.org'
+        # The endpoint above is a third-party API gateway. Allow it to be overridden
+        # so users can point the agent at their own provider without editing source.
+        self.base_url = os.environ.get('REPOTRANSBENCH_BASE_URL', self.base_url).rstrip('/')
         self.log_path = "conversation_logs/logs.json"
 
     def init_conversation(self, repo_path=None):
@@ -90,7 +103,7 @@ class Generator:
             retry_cnt = 0
             while True:
                 try:
-                    self.logger.info(f"Using key: {self.api_key}")
+                    self.logger.info(f"Using key: ...{self.api_key[-4:]}")
                     self.logger.info(f"Using base url: {self.base_url}")
                     headers = {
                         'Accept': 'application/json',
@@ -154,8 +167,14 @@ class Generator:
         if repo_name:
             log_path = f'conversation_logs/{repo_name}.json'
 
+        # conversation_logs/*.json is what users attach to bug reports, so the
+        # Authorization header must not be written to it verbatim.
+        safe_headers = dict(headers)
+        if 'Authorization' in safe_headers:
+            safe_headers['Authorization'] = 'Bearer <redacted>'
+
         conversation_data = {
-            "headers": headers,
+            "headers": safe_headers,
             "model_name": model_name,
             "messages": messages,
             "response": response,
