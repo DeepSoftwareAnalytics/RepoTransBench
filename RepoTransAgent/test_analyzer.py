@@ -122,9 +122,12 @@ class PythonTestAnalyzer(BaseTestAnalyzer):
         tests = []
         modules = {}
         
-        # Parse pytest output
-        test_pattern = r'(\S+)::\S+\s+(PASSED|FAILED|ERROR|SKIPPED)'
-        matches = re.findall(test_pattern, stdout)
+        # Parse pytest output.
+        # Anchor to the start of a line and keep the separator on one line: \s would
+        # match the newline, letting a test id at the end of a short-summary line pair
+        # with the status token that begins the next one.
+        test_pattern = r'^(\S+)::\S+[ \t]+(PASSED|FAILED|ERROR|SKIPPED)'
+        matches = re.findall(test_pattern, stdout, re.MULTILINE)
         
         for match in matches:
             test_file, status = match
